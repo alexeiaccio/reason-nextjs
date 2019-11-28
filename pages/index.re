@@ -1,13 +1,7 @@
-let component = ReasonReact.statelessComponent("Index");
-
-let make = (_children) => {
-  ...component,
-  render: (_self) =>
-    <div>
-      <Header />
-      <p> (ReasonReact.string("HOME PAGE is here!")) </p>
-      <Counter />
-    </div>
+[@react.component]
+let default = _children => {
+  <div>
+    <Header />
+    <p> {React.string("HOME PAGE is here!")} </p>
+  </div>;
 };
-
-let default = ReasonReact.wrapReasonForJs(~component, (_jsProps) => make([||]));

@@ -18,6 +18,7 @@
   "scripts": {
     "build": "bsb -clean-world -make-world && next build",
     "dev": "concurrently \"bsb -clean-world -make-world -w\" \"next dev\"",
-    "start": "next start"
+    "start": "next start",
+    "clean": "bsb -clean-world"
   }
 }
