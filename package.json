@@ -1,17 +1,22 @@
 {
-  "name": "@clubinvestbr/reason-nextjs",
+  "name": "reason-nextjs",
   "version": "0.0.1",
-  "author": "Rodrigo Oler <https://github.com/rodrigooler>",
+  "author": "Alexei Accio <https://github.com/alexeiaccio>",
   "dependencies": {
+    "@ryb73/decco": "0.1.1",
+    "apollo-link-prismic": "^1.0.6",
     "babel-plugin-bucklescript": "0.5.3",
+    "get_in_ppx": "^2.0.1",
     "next": "9.1.4",
     "react": "16.12.0",
     "react-dom": "16.12.0",
+    "reason-apollo": "^0.17.0",
     "reason-react": "0.7.0"
   },
   "devDependencies": {
     "bs-platform": "5.2.1",
     "concurrently": "5.0.0",
+    "graphql_ppx": "^0.2.8",
     "webpack": "4.41.2"
   },
   "license": "MIT",

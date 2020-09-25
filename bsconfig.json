@@ -1,7 +1,7 @@
 {
   "name": "with-reasonml",
   "sources": ["components", "pages", "bindings"],
-  "bs-dependencies": ["reason-react"],
+  "bs-dependencies": ["reason-react", "reason-apollo", "@ryb73/decco"],
   "reason": { "react-jsx": 3 },
   "package-specs": {
     "module": "commonjs",
@@ -10,6 +10,11 @@
   "suffix": ".bs.js",
   "bsc-flags": [
     "-bs-super-errors"
+  ],
+  "ppx-flags": [
+    "graphql_ppx/ppx",
+    "get_in_ppx/ppx",
+    "@ryb73/decco/ppx/ppx_decco.sh"
   ],
   "refmt": 3
 }

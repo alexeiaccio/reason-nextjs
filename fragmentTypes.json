@@ -1,0 +1,304 @@
+{
+  "__schema": {
+    "types": [
+      {
+        "kind": "SCALAR",
+        "name": "DateTime",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "Home",
+        "possibleTypes": null
+      },
+      {
+        "kind": "UNION",
+        "name": "HomeBody",
+        "possibleTypes": [
+          {
+            "name": "HomeBodyText"
+          },
+          {
+            "name": "HomeBodyLinks"
+          },
+          {
+            "name": "HomeBodyImages"
+          }
+        ]
+      },
+      {
+        "kind": "OBJECT",
+        "name": "HomeBodyImages",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "HomeBodyImagesFields",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "HomeBodyLinks",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "HomeBodyLinksFields",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "HomeBodyText",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "HomeBodyTextPrimary",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "HomeConnectionConnection",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "HomeConnectionEdge",
+        "possibleTypes": null
+      },
+      {
+        "kind": "SCALAR",
+        "name": "Json",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "Meta",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "Page",
+        "possibleTypes": null
+      },
+      {
+        "kind": "UNION",
+        "name": "PageBody",
+        "possibleTypes": [
+          {
+            "name": "PageBodyText"
+          },
+          {
+            "name": "PageBodyImages"
+          },
+          {
+            "name": "PageBodyLinks"
+          }
+        ]
+      },
+      {
+        "kind": "OBJECT",
+        "name": "PageBodyImages",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "PageBodyImagesFields",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "PageBodyLinks",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "PageBodyLinksFields",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "PageBodyText",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "PageBodyTextPrimary",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "PageConnectionConnection",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "PageConnectionEdge",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "PageInfo",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "Query",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "RelatedDocument",
+        "possibleTypes": null
+      },
+      {
+        "kind": "ENUM",
+        "name": "SortDocumentsBy",
+        "possibleTypes": null
+      },
+      {
+        "kind": "ENUM",
+        "name": "SortHomey",
+        "possibleTypes": null
+      },
+      {
+        "kind": "ENUM",
+        "name": "SortPagey",
+        "possibleTypes": null
+      },
+      {
+        "kind": "INPUT_OBJECT",
+        "name": "WhereHome",
+        "possibleTypes": null
+      },
+      {
+        "kind": "INPUT_OBJECT",
+        "name": "WherePage",
+        "possibleTypes": null
+      },
+      {
+        "kind": "INTERFACE",
+        "name": "_Document",
+        "possibleTypes": [
+          {
+            "name": "Home"
+          },
+          {
+            "name": "Page"
+          }
+        ]
+      },
+      {
+        "kind": "OBJECT",
+        "name": "_DocumentConnection",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "_DocumentEdge",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "_ExternalLink",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "_FileLink",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "_ImageLink",
+        "possibleTypes": null
+      },
+      {
+        "kind": "INTERFACE",
+        "name": "_Linkable",
+        "possibleTypes": [
+          {
+            "name": "Home"
+          },
+          {
+            "name": "Page"
+          },
+          {
+            "name": "_ExternalLink"
+          },
+          {
+            "name": "_FileLink"
+          },
+          {
+            "name": "_ImageLink"
+          }
+        ]
+      },
+      {
+        "kind": "INPUT_OBJECT",
+        "name": "similar",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "__Directive",
+        "possibleTypes": null
+      },
+      {
+        "kind": "ENUM",
+        "name": "__DirectiveLocation",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "__EnumValue",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "__Field",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "__InputValue",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "__Schema",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "__Type",
+        "possibleTypes": null
+      },
+      {
+        "kind": "ENUM",
+        "name": "__TypeKind",
+        "possibleTypes": null
+      },
+      {
+        "kind": "SCALAR",
+        "name": "Boolean",
+        "possibleTypes": null
+      },
+      {
+        "kind": "SCALAR",
+        "name": "Int",
+        "possibleTypes": null
+      },
+      {
+        "kind": "SCALAR",
+        "name": "Long",
+        "possibleTypes": null
+      },
+      {
+        "kind": "SCALAR",
+        "name": "String",
+        "possibleTypes": null
+      }
+    ]
+  }
+}
